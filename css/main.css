@@ -1,7 +1,11 @@
-html, body {
-    overflow-x: hidden;
+body { margin: 60px auto; width: 70%;}
+
+div{
+    width: 200px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word; /* Firefox support */
 }
-body { margin: 60px auto; width: 70%; overflow-x: hidden;}
 
 .btn-mini {
   padding: 2px 6px
