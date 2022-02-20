@@ -1,4 +1,4 @@
-body { margin: 60px auto; width: 70%; }
+body { margin: 60px auto; width: 70%; overflow-x: hidden;}
 
 .btn-mini {
   padding: 2px 6px
