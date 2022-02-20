@@ -3,6 +3,14 @@ body {
   padding-bottom: 20px;
 }
 
+.container{ 
+  padding-left: 100px;
+  padding-right: 15px;
+  min-width: 1170px; 
+  margin-right:auto;
+  margin-left:auto
+} 
+
 .WebContainer{
     width:100%;
     min-width:1000px;
