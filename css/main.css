@@ -1,7 +1,4 @@
-body {
-	font-size:16px;
-	line-height:1.6;
-}
+body { margin: 60px auto; width: 70%; }
 
 /* Customize container */
 @media (min-width: 768px) {
