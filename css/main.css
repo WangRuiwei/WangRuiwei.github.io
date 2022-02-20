@@ -1,9 +1,11 @@
-body { margin: 0px auto; width: 80%;}
+body { margin: 60px auto; width: 70%;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
 
-div{
-    width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word; /* Firefox support */
+div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .btn-mini {
@@ -54,8 +56,6 @@ div{
     }
 }
 
-
-body { margin: 60px auto; width: 70%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
