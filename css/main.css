@@ -1,6 +1,7 @@
 body { margin: 60px auto; width: 70%;}
 
 div{
+    width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word; /* Firefox support */
 }
