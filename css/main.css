@@ -1,11 +1,6 @@
 body { margin: 60px auto; width: 70%;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
-}
-
-div::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+	font-size:16px;
+	line-height:1.6;
 }
 
 .btn-mini {
