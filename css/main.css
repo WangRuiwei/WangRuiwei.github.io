@@ -2,6 +2,13 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
