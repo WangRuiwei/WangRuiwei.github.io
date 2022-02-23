@@ -4,6 +4,10 @@ body {
 	line-height:1.6;
 }
 
+::-webkit-scrollbar { 
+  width: 0px!important;
+}
+
 #mouse{
 position:absolute;
 }
